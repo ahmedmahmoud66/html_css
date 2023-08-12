@@ -1,0 +1,119 @@
+.a{
+    background-color: #e4f9f5;
+    display: flex;
+    flex-direction: column;
+}
+div.a{
+    height:750px ;
+}
+.a > img{
+    width: 170px !important;
+    align-self: flex-end;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+.a > h2 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    color: #66bfbf;
+}
+.a > p {
+    text-align: center;
+    font-size: 40px;
+    color: #66bfbf;
+}
+img[alt="1"]{
+    align-self: flex-start;
+    margin-left: 200px;
+}
+img[alt="2"]{
+    align-self: center;
+    height: 300px;
+    width: 600px !important;
+    position: relative;
+    bottom: 100px;
+    left: 100px
+}
+.b{
+    display: flex;
+    flex-direction: column;
+}
+.b > img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    align-self: center;
+}
+.b > h2 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    color: #66bfbf;
+}
+.b > p {
+    align-self: center;
+    font-size: large;
+    width: 30%;
+    text-align: center;
+}
+hr{
+    border-style:dotted;
+    border-top-width:10px;
+    width: 20%;
+    align-self: center;
+}
+.c h2 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: #66bfbf;
+}
+.c img {
+    margin-left: 300px;
+    float: left;
+}
+
+.c p {
+    width: 70%;
+    font-size: large;
+}
+.c h4{
+    color: #66bfbf;
+}
+.c img[alt="1"]{
+    height: 150px;
+    width: 150px;
+}
+.d{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width:899px) {
+    div.c{
+        width: 880px;
+    }
+    .c p {
+        width: auto;
+    }
+}
+@media (max-width:781px){
+    .c h2 {
+        margin-left: 60px;
+    }
+    div.c{
+        position: relative;
+        right: 40px;
+        width: 800px;
+    }
+    .c p{
+        width: 735.5px;
+    }
+    #x p{
+        width: 820px;
+        position: relative;
+        bottom: 20px;
+    }
+    
+    }
